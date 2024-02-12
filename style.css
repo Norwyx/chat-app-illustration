@@ -1,5 +1,32 @@
 /* Global classes */
 
+:root {
+    /* Subheading at the top of the app UI */
+    --pale-violet: hsl(276, 100%, 81%);
+    /* Chat on the left */
+    --moderate-violet: hsl(276, 55%, 52%);
+    /* Chat on the right */
+    --desaturated-dark-violet: hsl(271, 15%, 43%);
+    /* Placeholder text */
+    --grayish-blue: hsl(206, 6%, 79%);
+    /* Main heading */
+    --very-dark-desaturated-violet: hsl(271, 36%, 24%);
+    /* Paragraph */
+    --dark-grayish-violet: hsl(270, 7%, 64%);
+
+    /* Gradient colors */
+    --light-magenta: hsl(293, 100%, 63%);
+    --light-violet: hsl(264, 100%, 61%);
+
+    --white: hsl(0, 0%, 100%);
+    /* app background */
+    --light-grayish-violet: hsl(270, 20%, 96%);
+    /* Radio button outline */
+    --very-light-magenta: hsl(289, 100%, 72%);
+
+    --ff-primary: 'Rubik', sans-serif;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -21,4 +48,9 @@ html {
 .center {
     justify-content: center;
     align-items: center;
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-size: 1rem;
 }
