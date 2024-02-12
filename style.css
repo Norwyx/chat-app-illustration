@@ -181,7 +181,10 @@ main {
 .img {
     overflow: hidden;
     border-radius: 10px;
-    width: 2.5rem;
+}
+
+img {
+    width: 100%;
 }
 
 .price-bubble {
@@ -253,4 +256,5 @@ main {
     color: var(--dark-grayish-violet);
     line-height: 1.6;
     font-size: 15px;
+    max-width: 400px;
 }
