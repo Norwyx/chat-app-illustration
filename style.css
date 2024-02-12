@@ -52,10 +52,6 @@ html {
 }
 
 body {
-    background-image: url(./images/bg-mobile.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     font-family: var(--ff-primary);
     font-size: 1rem;
     font-weight: 400;
@@ -64,6 +60,33 @@ body {
 
 /* Specific classes 
 */
+
+.bg-bubble {
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+    z-index: -1000;
+    position: absolute;
+}
+
+.bubble-left {
+    background: linear-gradient(45deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 50% 30%;
+    border-bottom-left-radius: 50% 30%;
+    transform: translateX(-50%) translateY(-20%);
+}
+
+.bubble-right {
+    background-color: var(--light-grayish-violet);
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 50% 30%;
+    border-top-right-radius: 50% 30%;
+    transform: translateX(50%) translateY(70%);
+    opacity: .5;
+}
 
 main {
     gap: 4.5rem;
@@ -257,4 +280,37 @@ img {
     line-height: 1.6;
     font-size: 15px;
     max-width: 400px;
+}
+
+@media (min-width: 440px) {
+    body {
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    .bubble-left {
+        top: 0;
+        left: 0;
+        transform: translateX(-27%) translateY(-20%);
+    }
+    
+    .bubble-right {
+        right: 0;
+        bottom: 0;
+        transform: translateX(27%) translateY(20%);
+    }
+
+    main {
+        flex-direction: row !important;
+        margin-top: 3rem;
+    }
+
+    .app-info {
+        text-align: left;
+    }
+
+    .description {
+        max-width: 425px;
+    }
 }
