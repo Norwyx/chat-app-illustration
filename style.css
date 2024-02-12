@@ -51,7 +51,38 @@ html {
 }
 
 body {
+    background-image: url(./images/bg-mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     font-family: var(--ff-primary);
     font-size: 1rem;
     font-weight: 400;
+    padding: 4rem 0;
+}
+
+/* Specific classes 
+*/
+
+/* Phone */
+
+
+
+/* App info */
+.app-info {
+    text-align: center;
+    padding: 0 2.5rem;
+    gap: 1rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--very-dark-desaturated-violet);
+}
+
+.description {
+    color: var(--dark-grayish-violet);
+    line-height: 1.6;
+    font-size: 15px;
 }
