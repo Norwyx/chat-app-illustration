@@ -1,10 +1,10 @@
-# Social Links Profile
+# Chat App Illustration
 
-A responsive social links profile. This page was built as a front-end project of [Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). 
+A responsive chat app illustration. This page was built as a front-end project of [Frontend Mentor](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY/). 
 
-- [Page](https://norwyx.github.io/social-links-profile/) - Final result of the project
+- [Page](https://norwyx.github.io/chat-app-illustration/) - Final result of the project
 
-![Social links profile](./images/final-results.png)
+![Chat app illustration](./images/final-results.png)
 
 ## Built with
 - [HTML5](https://developer.mozilla.org/es/docs/HTML/HTML5)
